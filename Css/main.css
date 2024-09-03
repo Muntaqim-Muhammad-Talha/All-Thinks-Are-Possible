@@ -1,0 +1,243 @@
+/* Universal styles are here... */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -_-_-_- */
+
+/* Most common styles are here ... */
+
+.btn-primary {
+    color: #005FAC;
+    background-color: #FFF;
+    padding: 20px 30px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    opacity: 90%;
+}
+
+.btn-secondary{
+    color: #FFF;
+    background-color: #005FAC;
+    padding: 20px 30px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* -_-_-_- */
+
+
+/* Header styles are here */
+
+header {
+    width: 100%;
+    height: 855px;
+    background-image: url(../assets/banner3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 200px;
+}
+
+.header-con {
+    width: 568px;
+    margin-top: 110px;
+    margin-bottom: 150px;
+    margin-right: 200px;
+    text-align: right;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.header-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 36px;
+}
+
+/* -_-_-_- */
+
+/* Main styles are here ... */
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.failures-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 200px;
+}
+
+.failures-title {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.failures-paragraph {
+    color: #474747;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.failures-lists>ul>li {
+    color: #474747;
+    font-size: 18px;
+    line-height: 30px;
+    line-height: 36px;
+}
+
+/* Plan styles are here ... */
+
+.plan-con{
+    margin-bottom: 200px;
+}
+
+.plan-title {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.skill{
+    text-align: center;
+}
+
+.skill img{
+    margin-bottom: 30px;
+}
+
+.skill-title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.skill-text{
+    font-size: 18px;
+    color: #474747;
+    font-weight: 500;
+}
+.call-con {
+    background-image: url('../assets/gradient1.png'), url('../assets/watch.png');
+    background-repeat: no-repeat, no-repeat;
+    height: 300px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.call-text{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+
+.calll {
+    width: 613px;
+    margin: 0px 82px;
+}
+
+/* -_-_-_- */
+
+/* Footer styles are here ... */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    gap: 13%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px 200px;
+}
+
+.footer-column{
+    width: 50%;
+    margin: auto;
+}
+
+.footer-title{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.footer-text, .footer-email, .footer-phone{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.social-links > a > img{
+    margin-right: 12px;
+}
+
+.input-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-inptut {
+    display: block;
+    /* width: 100%; */
+    background-color: #000;
+    border: 2px solid #fff;
+    outline: none;
+    margin-bottom: 8px;
+    padding: 20px 87px 20px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    margin-bottom: 18px;
+}
